@@ -21,6 +21,7 @@
 		4B6EA3061FCC7DF3008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common.h; sourceTree = "<group>"; };
 		4B6EA3091FCC7DF3008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bit2Common.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6EA2D81FCC4CAB008EC380 /* README.md */,
+				4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */,
 				4B6EA3071FCC7DF3008EC380 /* Sources */,
 				4B6EA2DF1FCC4FB2008EC380 /* Products */,
 			);
