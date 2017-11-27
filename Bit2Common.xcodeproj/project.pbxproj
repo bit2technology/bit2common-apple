@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B6EA2E31FCC4FB2008EC380 /* Bit2Common_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA2E11FCC4FB2008EC380 /* Bit2Common_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B6EA2F01FCC5037008EC380 /* Bit2Common_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA2EE1FCC5037008EC380 /* Bit2Common_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B6EA2FD1FCC571E008EC380 /* Bit2Common_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA2FB1FCC571E008EC380 /* Bit2Common_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B6EA30A1FCC7DF3008EC380 /* Bit2Common_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6EA30A1FCC7DF3008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6EA30E1FCC8228008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6EA30F1FCC822B008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6EA3101FCC822E008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B6EA2D81FCC4CAB008EC380 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4B6EA2DE1FCC4FB2008EC380 /* Bit2Common_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6EA2E11FCC4FB2008EC380 /* Bit2Common_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common_iOS.h; sourceTree = "<group>"; };
-		4B6EA2E21FCC4FB2008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B6EA2EC1FCC5037008EC380 /* Bit2Common_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6EA2EE1FCC5037008EC380 /* Bit2Common_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common_watchOS.h; sourceTree = "<group>"; };
-		4B6EA2EF1FCC5037008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B6EA2F91FCC571E008EC380 /* Bit2Common_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6EA2FB1FCC571E008EC380 /* Bit2Common_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common_tvOS.h; sourceTree = "<group>"; };
-		4B6EA2FC1FCC571E008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B6EA3061FCC7DF3008EC380 /* Bit2Common_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6EA3081FCC7DF3008EC380 /* Bit2Common_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common_macOS.h; sourceTree = "<group>"; };
+		4B6EA2DE1FCC4FB2008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6EA2EC1FCC5037008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6EA2F91FCC571E008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6EA3061FCC7DF3008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common.h; sourceTree = "<group>"; };
 		4B6EA3091FCC7DF3008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,58 +58,28 @@
 		4B6EA2DF1FCC4FB2008EC380 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B6EA2DE1FCC4FB2008EC380 /* Bit2Common_iOS.framework */,
-				4B6EA2EC1FCC5037008EC380 /* Bit2Common_watchOS.framework */,
-				4B6EA2F91FCC571E008EC380 /* Bit2Common_tvOS.framework */,
-				4B6EA3061FCC7DF3008EC380 /* Bit2Common_macOS.framework */,
+				4B6EA2DE1FCC4FB2008EC380 /* Bit2Common.framework */,
+				4B6EA2EC1FCC5037008EC380 /* Bit2Common.framework */,
+				4B6EA2F91FCC571E008EC380 /* Bit2Common.framework */,
+				4B6EA3061FCC7DF3008EC380 /* Bit2Common.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B6EA2E01FCC4FB2008EC380 /* Bit2Common-iOS */ = {
+		4B6EA3071FCC7DF3008EC380 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4B6EA2E11FCC4FB2008EC380 /* Bit2Common_iOS.h */,
-				4B6EA2E21FCC4FB2008EC380 /* Info.plist */,
-			);
-			path = "Bit2Common-iOS";
-			sourceTree = "<group>";
-		};
-		4B6EA2ED1FCC5037008EC380 /* Bit2Common-watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				4B6EA2EE1FCC5037008EC380 /* Bit2Common_watchOS.h */,
-				4B6EA2EF1FCC5037008EC380 /* Info.plist */,
-			);
-			path = "Bit2Common-watchOS";
-			sourceTree = "<group>";
-		};
-		4B6EA2FA1FCC571E008EC380 /* Bit2Common-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				4B6EA2FB1FCC571E008EC380 /* Bit2Common_tvOS.h */,
-				4B6EA2FC1FCC571E008EC380 /* Info.plist */,
-			);
-			path = "Bit2Common-tvOS";
-			sourceTree = "<group>";
-		};
-		4B6EA3071FCC7DF3008EC380 /* Bit2Common-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				4B6EA3081FCC7DF3008EC380 /* Bit2Common_macOS.h */,
+				4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */,
 				4B6EA3091FCC7DF3008EC380 /* Info.plist */,
 			);
-			path = "Bit2Common-macOS";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		4BA1A4E31FCC4B7500E75B87 = {
 			isa = PBXGroup;
 			children = (
 				4B6EA2D81FCC4CAB008EC380 /* README.md */,
-				4B6EA2E01FCC4FB2008EC380 /* Bit2Common-iOS */,
-				4B6EA2ED1FCC5037008EC380 /* Bit2Common-watchOS */,
-				4B6EA2FA1FCC571E008EC380 /* Bit2Common-tvOS */,
-				4B6EA3071FCC7DF3008EC380 /* Bit2Common-macOS */,
+				4B6EA3071FCC7DF3008EC380 /* Sources */,
 				4B6EA2DF1FCC4FB2008EC380 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,7 +91,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6EA2E31FCC4FB2008EC380 /* Bit2Common_iOS.h in Headers */,
+				4B6EA3101FCC822E008EC380 /* Bit2Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6EA2F01FCC5037008EC380 /* Bit2Common_watchOS.h in Headers */,
+				4B6EA30F1FCC822B008EC380 /* Bit2Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6EA2FD1FCC571E008EC380 /* Bit2Common_tvOS.h in Headers */,
+				4B6EA30E1FCC8228008EC380 /* Bit2Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +115,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B6EA30A1FCC7DF3008EC380 /* Bit2Common_macOS.h in Headers */,
+				4B6EA30A1FCC7DF3008EC380 /* Bit2Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +137,7 @@
 			);
 			name = "Bit2Common-iOS";
 			productName = "Bit2Common-iOS";
-			productReference = 4B6EA2DE1FCC4FB2008EC380 /* Bit2Common_iOS.framework */;
+			productReference = 4B6EA2DE1FCC4FB2008EC380 /* Bit2Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B6EA2EB1FCC5037008EC380 /* Bit2Common-watchOS */ = {
@@ -191,7 +155,7 @@
 			);
 			name = "Bit2Common-watchOS";
 			productName = "Bit2Common-watchOS";
-			productReference = 4B6EA2EC1FCC5037008EC380 /* Bit2Common_watchOS.framework */;
+			productReference = 4B6EA2EC1FCC5037008EC380 /* Bit2Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B6EA2F81FCC571E008EC380 /* Bit2Common-tvOS */ = {
@@ -209,7 +173,7 @@
 			);
 			name = "Bit2Common-tvOS";
 			productName = "Bit2Common-tvOS";
-			productReference = 4B6EA2F91FCC571E008EC380 /* Bit2Common_tvOS.framework */;
+			productReference = 4B6EA2F91FCC571E008EC380 /* Bit2Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4B6EA3051FCC7DF3008EC380 /* Bit2Common-macOS */ = {
@@ -227,7 +191,7 @@
 			);
 			name = "Bit2Common-macOS";
 			productName = "Bit2Common-macOS";
-			productReference = 4B6EA3061FCC7DF3008EC380 /* Bit2Common_macOS.framework */;
+			productReference = 4B6EA3061FCC7DF3008EC380 /* Bit2Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -344,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -394,14 +359,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-iOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.ios;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -417,6 +381,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -461,13 +426,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-iOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.ios;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -534,13 +498,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-watchOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.watchos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -549,7 +513,6 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Debug;
 		};
@@ -602,12 +565,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-watchOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.watchos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -616,7 +579,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
 			};
 			name = Release;
 		};
@@ -624,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -674,20 +637,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-tvOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.tvos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -697,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -741,18 +704,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-tvOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.tvos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 11.2;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -763,6 +725,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -815,14 +778,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-macOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.macos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -837,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -883,13 +846,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Bit2Common-macOS/Info.plist";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "technology.bit2.Bit2Common-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = technology.bit2.common.macos;
+				PRODUCT_NAME = Bit2Common;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -902,12 +864,20 @@
 		4BA1A4E81FCC4B7500E75B87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
 		4BA1A4E91FCC4B7500E75B87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
