@@ -20,6 +20,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bit2 Technology";
 			};
 			buildConfigurationList = 4BA1A4E71FCC4B7500E75B87 /* Build configuration list for PBXProject "Bit2Common" */;
 			compatibilityVersion = "Xcode 8.0";
