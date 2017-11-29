@@ -25,4 +25,10 @@ Pod::Spec.new do |s|
         sp.frameworks = 'CoreData'
         sp.source_files = 'Sources/CoreDataContainer/'
     end
+    
+    s.subspec 'CoreDataOperation' do |sp|
+        sp.dependency 'Bit2Common/AdvancedOperation'
+        sp.dependency 'Bit2Common/CoreDataContainer'
+        sp.source_files = 'Sources/CoreDataOperation/'
+    end
 end

@@ -15,6 +15,9 @@ public class CoreDataContainer {
     public let persistentStoreCoordinator: NSPersistentStoreCoordinator
     public let viewContext: NSManagedObjectContext
     
+    public static let shared = CoreDataContainer()
+    public static var configuration: (bundle: Bundle, groupID: String?)?
+    
     public func newBackgroundContext() -> NSManagedObjectContext {
         let backgroundContext = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
         backgroundContext.parent = viewContext
@@ -28,25 +31,24 @@ public class CoreDataContainer {
         }
     }
     
-    public init(named name: String? = nil, groupID: String? = nil) throws {
+    private init() {
+        
+        guard let configuration = CoreDataContainer.configuration else {
+            preconditionFailure("CoreDataContainer.configuration must be set before usage.")
+        }
         
         // Model
-        if let name = name {
-            let modelURL = Bundle(for: CoreDataContainer.self).url(forResource: name, withExtension: "momd")!
-            managedObjectModel = NSManagedObjectModel(contentsOf: modelURL)!
-        } else {
-            managedObjectModel = NSManagedObjectModel.mergedModel(from: Bundle.allBundles)!
-        }
+        managedObjectModel = NSManagedObjectModel.mergedModel(from: [configuration.bundle])!
         
         // Coordinator
         persistentStoreCoordinator = NSPersistentStoreCoordinator(managedObjectModel: managedObjectModel)
         let databaseDirectoryURL: URL
-        if let groupID = groupID {
+        if let groupID = configuration.groupID {
             databaseDirectoryURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupID)!
         } else {
             databaseDirectoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         }
-        try persistentStoreCoordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: databaseDirectoryURL.appendingPathComponent("Data.sqlite"), options: nil)
+        try! persistentStoreCoordinator.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: databaseDirectoryURL.appendingPathComponent("Data.sqlite"), options: nil)
         
         // Main context
         viewContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
