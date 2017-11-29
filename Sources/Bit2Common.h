@@ -6,7 +6,7 @@
 //  Copyright © 2017 Bit2 Technology. All rights reserved.
 //
 
-@import Foundation
+@import Foundation;
 
 //! Project version number for Bit2Common.
 FOUNDATION_EXPORT double Bit2CommonVersionNumber;

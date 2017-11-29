@@ -11,6 +11,10 @@
 		4B6EA30E1FCC8228008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6EA30F1FCC822B008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6EA3101FCC822E008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6EA3141FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */; };
+		4B6EA3151FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */; };
+		4B6EA3161FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */; };
+		4B6EA3171FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +25,10 @@
 		4B6EA3061FCC7DF3008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bit2Common.h; sourceTree = "<group>"; };
 		4B6EA3091FCC7DF3008EC380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Bit2Common.podspec; sourceTree = "<group>"; };
+		4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Bit2Common.podspec; sourceTree = "<group>"; };
+		4B6EA3121FCC9124008EC380 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedOperation.swift; sourceTree = "<group>"; };
+		4B6EA3191FCCA7BA008EC380 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +78,26 @@
 			isa = PBXGroup;
 			children = (
 				4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */,
+				4B6EA3181FCCA509008EC380 /* AdvancedOperation */,
 				4B6EA3091FCC7DF3008EC380 /* Info.plist */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		4B6EA3181FCCA509008EC380 /* AdvancedOperation */ = {
+			isa = PBXGroup;
+			children = (
+				4B6EA3131FCCA4ED008EC380 /* AdvancedOperation.swift */,
+			);
+			path = AdvancedOperation;
 			sourceTree = "<group>";
 		};
 		4BA1A4E31FCC4B7500E75B87 = {
 			isa = PBXGroup;
 			children = (
 				4B6EA2D81FCC4CAB008EC380 /* README.md */,
+				4B6EA3121FCC9124008EC380 /* LICENSE */,
+				4B6EA3191FCCA7BA008EC380 /* .swift-version */,
 				4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */,
 				4B6EA3071FCC7DF3008EC380 /* Sources */,
 				4B6EA2DF1FCC4FB2008EC380 /* Products */,
@@ -207,18 +225,22 @@
 				TargetAttributes = {
 					4B6EA2DD1FCC4FB2008EC380 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4B6EA2EB1FCC5037008EC380 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4B6EA2F81FCC571E008EC380 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					4B6EA3051FCC7DF3008EC380 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6EA3141FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6EA3151FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6EA3161FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6EA3171FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
