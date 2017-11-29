@@ -6,16 +6,23 @@ Pod::Spec.new do |s|
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.homepage = 'https://github.com/bit2technology/bit2common-apple'
     s.source = { :git => 'https://github.com/bit2technology/bit2common-apple.git', :tag => s.version.to_s }
-    s.summary = 'A collection of common code used throug Bit2 Technology projects.'
+    s.summary = 'A collection of common code used through Bit2 Technology projects.'
     
     s.ios.deployment_target = '9.0'
     s.watchos.deployment_target = '2.0'
     s.tvos.deployment_target = '9.0'
     s.osx.deployment_target = '10.11'
     
+    s.frameworks = 'Foundation'
     s.source_files = 'Sources/Bit2Common.h'
     s.public_header_files = 'Sources/Bit2Common.h'
+    
     s.subspec 'AdvancedOperation' do |sp|
         sp.source_files = 'Sources/AdvancedOperation/'
+    end
+    
+    s.subspec 'CoreDataContainer' do |sp|
+        sp.frameworks = 'CoreData'
+        sp.source_files = 'Sources/CoreDataContainer/'
     end
 end
