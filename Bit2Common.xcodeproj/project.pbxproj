@@ -23,6 +23,10 @@
 		4B98C1471FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */; };
 		4B98C1481FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */; };
 		4B98C1491FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */; };
+		4B98C14E1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */; };
+		4B98C14F1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */; };
+		4B98C1501FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */; };
+		4B98C1511FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,7 @@
 		4B6EA3191FCCA7BA008EC380 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		4B98C13D1FCEE176008F7CA3 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
 		4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOperation.swift; sourceTree = "<group>"; };
+		4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 				4B6EA3181FCCA509008EC380 /* AdvancedOperation */,
 				4B98C13C1FCEE153008F7CA3 /* CoreDataContainer */,
 				4B98C1441FCEEBBF008F7CA3 /* CoreDataOperation */,
+				4B98C14C1FCF22E7008F7CA3 /* URLSessionDataTaskOperation */,
 				4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */,
 				4B6EA3091FCC7DF3008EC380 /* Info.plist */,
 			);
@@ -118,6 +124,14 @@
 				4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */,
 			);
 			path = CoreDataOperation;
+			sourceTree = "<group>";
+		};
+		4B98C14C1FCF22E7008F7CA3 /* URLSessionDataTaskOperation */ = {
+			isa = PBXGroup;
+			children = (
+				4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */,
+			);
+			path = URLSessionDataTaskOperation;
 			sourceTree = "<group>";
 		};
 		4BA1A4E31FCC4B7500E75B87 = {
@@ -332,6 +346,7 @@
 				4B98C13E1FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1461FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3141FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
+				4B98C14E1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +357,7 @@
 				4B98C13F1FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1471FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3151FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
+				4B98C14F1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +368,7 @@
 				4B98C1401FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1481FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3161FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
+				4B98C1501FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +379,7 @@
 				4B98C1411FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1491FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3171FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
+				4B98C1511FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

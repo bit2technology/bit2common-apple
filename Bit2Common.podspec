@@ -31,4 +31,9 @@ Pod::Spec.new do |s|
         sp.dependency 'Bit2Common/CoreDataContainer'
         sp.source_files = 'Sources/CoreDataOperation/'
     end
+    
+    s.subspec 'URLSessionDataTaskOperation' do |sp|
+        sp.dependency 'Bit2Common/AdvancedOperation'
+        sp.source_files = 'Sources/URLSessionDataTaskOperation/'
+    end
 end
