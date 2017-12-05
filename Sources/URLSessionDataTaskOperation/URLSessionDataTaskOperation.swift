@@ -22,10 +22,10 @@ open class URLSessionDataTaskOperation: AdvancedOperation<Data> {
         }
     }
     
-    private let request: URLRequest
+    private let request: URLRequest?
     private var task: URLSessionDataTask?
     
-    public init(request: URLRequest) {
+    public init(request: URLRequest?) {
         self.request = request
         super.init()
     }
@@ -36,6 +36,10 @@ open class URLSessionDataTaskOperation: AdvancedOperation<Data> {
     }
     
     open override func main() {
+        guard let request = request else {
+            finish(error: URLSessionDataTaskOperationError.noRequest)
+            return
+        }
         URLSessionDataTaskOperation.count += 1
         task = URLSession.shared.dataTask(with: request) {
             if !self.isCancelled {
@@ -54,5 +58,6 @@ open class URLSessionDataTaskOperation: AdvancedOperation<Data> {
 }
 
 public enum URLSessionDataTaskOperationError: Error {
+    case noRequest
     case noData
 }

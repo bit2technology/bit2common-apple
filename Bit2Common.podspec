@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'Bit2Common'
-    s.version = '0.1.0'
+    s.version = '0.1.1'
     s.authors = { 'Igor Camilo' => 'igor.rcamilo@gmail.com' }
     s.social_media_url = 'https://twitter.com/bit2technology'
     s.license = { :type => 'MIT', :file => 'LICENSE' }
@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
     end
     
     s.subspec 'CoreDataOperation' do |sp|
-        sp.dependency 'Bit2Common/AdvancedOperation'
-        sp.dependency 'Bit2Common/CoreDataContainer'
+        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.1.1'
+        sp.dependency 'Bit2Common/CoreDataContainer', '~> 0.1.1'
         sp.source_files = 'Sources/CoreDataOperation/'
     end
     
     s.subspec 'URLSessionDataTaskOperation' do |sp|
-        sp.dependency 'Bit2Common/AdvancedOperation'
+        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.1.1'
         sp.source_files = 'Sources/URLSessionDataTaskOperation/'
     end
 end

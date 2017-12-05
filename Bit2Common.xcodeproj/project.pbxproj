@@ -44,6 +44,7 @@
 		4B98C13D1FCEE176008F7CA3 /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
 		4B98C1451FCEEBD9008F7CA3 /* CoreDataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOperation.swift; sourceTree = "<group>"; };
 		4B98C14D1FCF22F6008F7CA3 /* URLSessionDataTaskOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskOperation.swift; sourceTree = "<group>"; };
+		4B98C1521FD581C5008F7CA3 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6EA2D81FCC4CAB008EC380 /* README.md */,
+				4B98C1521FD581C5008F7CA3 /* CHANGELOG.md */,
 				4B6EA3121FCC9124008EC380 /* LICENSE */,
 				4B6EA3191FCCA7BA008EC380 /* .swift-version */,
 				4B6EA3111FCC8969008EC380 /* Bit2Common.podspec */,
