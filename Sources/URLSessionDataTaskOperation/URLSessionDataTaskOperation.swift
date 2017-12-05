@@ -22,7 +22,12 @@ open class URLSessionDataTaskOperation: AdvancedOperation<Data> {
         }
     }
     
-    private let request: URLRequest?
+    public var request: URLRequest? {
+        didSet {
+            assert(task == nil, "Task can't be running or finished when changing the request!")
+        }
+    }
+    
     private var task: URLSessionDataTask?
     
     public init(request: URLRequest?) {

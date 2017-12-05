@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'Bit2Common'
-    s.version = '0.1.1'
+    s.version = '0.1.2'
     s.authors = { 'Igor Camilo' => 'igor.rcamilo@gmail.com' }
     s.social_media_url = 'https://twitter.com/bit2technology'
     s.license = { :type => 'MIT', :file => 'LICENSE' }

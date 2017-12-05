@@ -1,3 +1,7 @@
+# 0.1.2
+
+- `URLSessionDataTaskOperation` now exposes its `request` property.
+
 # 0.1.1
 
 - `URLSessionDataTaskOperation.init(request:)` now accepts an optional value.
