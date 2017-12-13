@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B29B8D51FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */; };
+		4B29B8D61FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */; };
+		4B29B8D71FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */; };
+		4B29B8D81FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */; };
 		4B6EA30A1FCC7DF3008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6EA30E1FCC8228008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B6EA30F1FCC822B008EC380 /* Bit2Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedManagedObject.swift; sourceTree = "<group>"; };
 		4B6EA2D81FCC4CAB008EC380 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B6EA2DE1FCC4FB2008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6EA2EC1FCC5037008EC380 /* Bit2Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bit2Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6EA3181FCCA509008EC380 /* AdvancedOperation */,
-				4B98C13C1FCEE153008F7CA3 /* CoreDataContainer */,
+				4B98C13C1FCEE153008F7CA3 /* CoreData */,
 				4B98C1441FCEEBBF008F7CA3 /* CoreDataOperation */,
 				4B98C14C1FCF22E7008F7CA3 /* URLSessionDataTaskOperation */,
 				4B6EA3081FCC7DF3008EC380 /* Bit2Common.h */,
@@ -111,12 +116,13 @@
 			path = AdvancedOperation;
 			sourceTree = "<group>";
 		};
-		4B98C13C1FCEE153008F7CA3 /* CoreDataContainer */ = {
+		4B98C13C1FCEE153008F7CA3 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				4B98C13D1FCEE176008F7CA3 /* CoreDataContainer.swift */,
+				4B29B8D41FE1588A007DCFD8 /* AdvancedManagedObject.swift */,
 			);
-			path = CoreDataContainer;
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		4B98C1441FCEEBBF008F7CA3 /* CoreDataOperation */ = {
@@ -345,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B29B8D51FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */,
 				4B98C13E1FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1461FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3141FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
@@ -356,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B29B8D61FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */,
 				4B98C13F1FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1471FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3151FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
@@ -367,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B29B8D71FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */,
 				4B98C1401FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1481FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3161FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,
@@ -378,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B29B8D81FE1588A007DCFD8 /* AdvancedManagedObject.swift in Sources */,
 				4B98C1411FCEE176008F7CA3 /* CoreDataContainer.swift in Sources */,
 				4B98C1491FCEEBD9008F7CA3 /* CoreDataOperation.swift in Sources */,
 				4B6EA3171FCCA4ED008EC380 /* AdvancedOperation.swift in Sources */,

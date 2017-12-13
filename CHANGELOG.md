@@ -1,3 +1,8 @@
+# Bayonetta (0.2.0)
+![Bayonetta](https://user-images.githubusercontent.com/11697241/33946493-186cc42a-e009-11e7-87c0-1475b5f95f04.jpg)
+
+- `CoreDataContainer` subspec is now `CoreData` and includes `AdvancedManagedObjectProtocol`.
+
 # 0.1.2
 
 - `URLSessionDataTaskOperation` now exposes its `request` property.
@@ -9,7 +14,7 @@
 # Aloy (0.1.0)
 ![Aloy from Horizon: Zero Dawn](https://user-images.githubusercontent.com/11697241/33392376-0992300c-d523-11e7-8bd8-98d0387cc8af.jpg)
 
-This is the first version of this library. It is a collection of common code between Bit2 Technology projects.
+This is the first version of this library. It is a collection of common code between Bit2 Technology projects.
 
 - `AdvancedOperation` is based on WWDC 2015 great session [Advanced NSOperations](https://developer.apple.com/videos/play/wwdc2015/226/).
 - `CoreDataContainer` is a `NSPersistenceContainer` replacement with support for iOS 9.

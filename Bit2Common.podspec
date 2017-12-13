@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name = 'Bit2Common'
-    s.version = '0.1.2'
-    s.authors = { 'Igor Camilo' => 'igor.rcamilo@gmail.com' }
+    s.version = '0.2.0'
+    s.authors = { 'Bit2 Technology' => 'contact@bit2.technology' }
     s.social_media_url = 'https://twitter.com/bit2technology'
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.homepage = 'https://github.com/bit2technology/bit2common-apple'
     s.source = { :git => 'https://github.com/bit2technology/bit2common-apple.git', :tag => s.version.to_s }
-    s.summary = 'A collection of common code used through Bit2 Technology projects.'
+    s.summary = 'A collection of common code used through Bit2 Technology projects.'
     
     s.ios.deployment_target = '9.0'
     s.watchos.deployment_target = '2.0'
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
         sp.source_files = 'Sources/AdvancedOperation/'
     end
     
-    s.subspec 'CoreDataContainer' do |sp|
+    s.subspec 'CoreData' do |sp|
         sp.frameworks = 'CoreData'
-        sp.source_files = 'Sources/CoreDataContainer/'
+        sp.source_files = 'Sources/CoreData/'
     end
     
     s.subspec 'CoreDataOperation' do |sp|
-        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.1.1'
-        sp.dependency 'Bit2Common/CoreDataContainer', '~> 0.1.1'
+        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.2.0'
+        sp.dependency 'Bit2Common/CoreData', '~> 0.2.0'
         sp.source_files = 'Sources/CoreDataOperation/'
     end
     
     s.subspec 'URLSessionDataTaskOperation' do |sp|
-        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.1.1'
+        sp.dependency 'Bit2Common/AdvancedOperation', '~> 0.2.0'
         sp.source_files = 'Sources/URLSessionDataTaskOperation/'
     end
 end
