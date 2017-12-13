@@ -1,3 +1,7 @@
+# 0.2.1
+
+- `CoreDataContainer.configuration` deprecated, use `options` instead.
+
 # Bayonetta (0.2.0)
 ![Bayonetta](https://user-images.githubusercontent.com/11697241/33946493-186cc42a-e009-11e7-87c0-1475b5f95f04.jpg)
 
